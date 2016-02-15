@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+#wrapper {
+  header {
+
+  }
+  #content {
+    width: 94%;
+    max-width: 800px;
+    margin: auto;
+    #cover-logo {
+      margin: 3em 0;
+      width: 100%;
+    }
+    #tag-line {
+      font-style: italic;
+      font-weight: lighter;
+      text-align: center;
+      margin: 0 0 2em 0;
+    }
+  }
+  footer {
+    #links-container {
+      text-align: center;
+      margin: 2em 0;
+      img {
+        margin: 0 0.5em;
+        color: #61C8FF;
+        &:hover {
+          color: #61C8FF;
+        }
+      }
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
