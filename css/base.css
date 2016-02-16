@@ -379,10 +379,30 @@ a:hover {
     font-weight: lighter;
     text-align: center;
     margin: 0 0 2em 0; }
-#wrapper #twitter-embed {
-  width: 94%;
-  max-width: 800px;
-  margin: auto; }
+  #wrapper #content .band-image {
+    width: 100%;
+    margin-bottom: 2em; }
+  #wrapper #content .band-info {
+    display: inline-block;
+    width: 52%;
+    font-size: 1.4em; }
+    @media (max-width: 700px) {
+      #wrapper #content .band-info {
+        display: block;
+        width: 100%; } }
+  #wrapper #content .band-image-two {
+    transition: all 0.5s;
+    width: 44%;
+    float: right; }
+    @media (max-width: 700px) {
+      #wrapper #content .band-image-two {
+        display: block;
+        width: 100%; } }
+  #wrapper #content iframe {
+    transition: all 0.5s; }
+    @media (max-width: 700px) {
+      #wrapper #content iframe {
+        height: 300px; } }
 #wrapper footer #links-container {
   text-align: center;
   margin: 2em 0; }
@@ -395,5 +415,8 @@ a:hover {
       opacity: 1; }
 #wrapper footer p {
   text-align: center; }
+
+.clear {
+  clear: both; }
 
 /*# sourceMappingURL=base.css.map */

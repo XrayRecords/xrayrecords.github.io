@@ -30,11 +30,34 @@ a:hover {
       text-align: center;
       margin: 0 0 2em 0;
     }
-  }
-#twitter-embed {
-    width: 94%;
-    max-width: 800px;
-    margin: auto;
+    .band-image {
+      width: 100%;
+      margin-bottom: 2em;
+    }
+    .band-info {
+      display: inline-block;
+      width: 52%;
+      font-size: 1.4em;
+      @media (max-width: $break-point){
+        display: block;
+        width: 100%;
+      }
+    }
+    .band-image-two {
+      transition: all 0.5s;
+      width: 44%;
+      float: right;
+      @media (max-width: $break-point){
+        display: block;
+        width: 100%;
+      }
+    }
+    iframe {
+      transition: all 0.5s;
+      @media (max-width: $break-point) {
+        height: 300px;
+      }
+    }
   }
   footer {
     #links-container {
@@ -54,4 +77,8 @@ a:hover {
       text-align: center;
     }
   }
+}
+
+.clear {
+  clear: both;
 }

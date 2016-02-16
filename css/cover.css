@@ -1,12 +1,13 @@
 html {
-  background: url("../artists/blesst-chest/blesst-2-cover.jpg") no-repeat center center fixed;
+  background: url("../img/blesst-2-cover.jpg") no-repeat center center fixed;
   top: 0;
   padding: 0;
   margin: 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  }
 
 body {
   text-align: center; }
@@ -22,9 +23,11 @@ body {
   vertical-align: middle;
   top: 3em;
   left: 0;
-  right: 0; }
+  right: 0;
+  transition: all 0.5s;}
   #cover-span img {
-    width: 300px;
+    width: 80%;
+    max-width: 300px;
     margin: auto; }
 
 #enter-span {
@@ -38,7 +41,8 @@ body {
   vertical-align: middle;
   top: 16em;
   left: 0;
-  right: 0; }
+  right: 0;
+  transition: all 0.5s;}
   #enter-span p {
     width: 6em;
     margin: auto;
@@ -53,4 +57,14 @@ body {
       border: 1px solid transparent;
       cursor: pointer;
       opacity: 0.8;
+    }
+
+
+    @media (max-width: 460px) {
+      #cover-span {
+        top: 2em;
+      }
+      #enter-span {
+        top: 12em;
+      }
     }
