@@ -364,6 +364,9 @@ th {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important; }
 
+a:hover {
+  cursor: pointer; }
+
 #wrapper #content {
   width: 94%;
   max-width: 800px;
@@ -376,14 +379,20 @@ th {
     font-weight: lighter;
     text-align: center;
     margin: 0 0 2em 0; }
+#wrapper #twitter-embed {
+  width: 94%;
+  max-width: 800px;
+  margin: auto; }
 #wrapper footer #links-container {
   text-align: center;
   margin: 2em 0; }
   #wrapper footer #links-container img {
+    width: 3em;
+    transition: all 0.5s;
     margin: 0 0.5em;
-    color: #61C8FF; }
+    opacity: 0.8; }
     #wrapper footer #links-container img:hover {
-      color: #61C8FF; }
+      opacity: 1; }
 #wrapper footer p {
   text-align: center; }
 

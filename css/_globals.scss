@@ -8,6 +8,10 @@
   -moz-border-radius: 0 !important;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 #wrapper {
   header {
 
@@ -27,15 +31,22 @@
       margin: 0 0 2em 0;
     }
   }
+#twitter-embed {
+    width: 94%;
+    max-width: 800px;
+    margin: auto;
+  }
   footer {
     #links-container {
       text-align: center;
       margin: 2em 0;
       img {
+        width: 3em;
+        transition: all 0.5s;
         margin: 0 0.5em;
-        color: #61C8FF;
+        opacity: 0.8;
         &:hover {
-          color: #61C8FF;
+          opacity: 1;
         }
       }
     }
