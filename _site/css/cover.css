@@ -1,0 +1,70 @@
+html {
+  background: url("../img/blesst-2-cover.jpg") no-repeat center center fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+body {
+  text-align: center; }
+
+#cover-span {
+  display: block;
+  color: white;
+  font-size: 3em;
+  padding: 1em;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  top: 3em;
+  left: 0;
+  right: 0;
+  transition: all 0.5s;}
+  #cover-span img {
+    width: 80%;
+    max-width: 300px;
+    margin: auto; }
+
+#enter-span {
+  display: block;
+  color: white;
+  font-size: 2em;
+  padding: 1em;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  top: 16em;
+  left: 0;
+  right: 0;
+  transition: all 0.5s;}
+  #enter-span p {
+    width: 6em;
+    margin: auto;
+    padding: 0.5em;}
+    #enter-span p a {
+      text-decoration: none;
+      color: inherit;
+      padding: 0.5em 1.5em;
+      border: 1px solid white;}
+    #enter-span p a:hover {
+      background: url("../img/darker.png");
+      border: 1px solid transparent;
+      cursor: pointer;
+      opacity: 0.8;
+    }
+
+
+    @media (max-width: 460px) {
+      #cover-span {
+        top: 2em;
+      }
+      #enter-span {
+        top: 12em;
+      }
+    }
