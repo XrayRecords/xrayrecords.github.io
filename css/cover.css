@@ -62,9 +62,9 @@ body {
 
     @media (max-width: 460px) {
       #cover-span {
-        top: 2em;
+        top: 1em;
       }
       #enter-span {
-        top: 12em;
+        top: 10em;
       }
     }
