@@ -112,8 +112,10 @@ var NavLink = React.createClass({
 
 // set data
 var navbar = {};
-navbar.brand = { linkTo: "index.html", text: "XRAY Records" };
-navbar.links = [{ linkTo: "info.html", text: "Info" }, { linkTo: "contact.html", text: "Contact" }, { dropdown: true, text: "Artists", links: [{ linkTo: "heavy-breather.html", text: "Heavy Breather" }, { linkTo: "blesst-chest.html", text: "Blesst Chest" }] }];
+navbar.brand = { linkTo: "home.html", text: "XRAY Records" };
+navbar.links = [
+  // { linkTo: "home.html#contact", text: "Contact" }, 
+  { dropdown: true, text: "Artists", links: [{ linkTo: "heavy-breather.html", text: "Heavy Breather" }, { linkTo: "blesst-chest.html", text: "Blesst Chest" }] }];
 
 // render NavBar
 React.render(React.createElement(NavBar, navbar), document.getElementById("navbar"));

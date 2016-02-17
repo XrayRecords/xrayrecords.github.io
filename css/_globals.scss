@@ -13,10 +13,7 @@ a:hover {
 }
 
 #wrapper {
-  header {
-
-  }
-  #content {
+  .content {
     width: 94%;
     max-width: 800px;
     margin: auto;
@@ -34,34 +31,33 @@ a:hover {
       width: 100%;
       margin-bottom: 2em;
     }
-    .band-info {
-      display: inline-block;
-      width: 52%;
-      font-size: 1.4em;
-      @media (max-width: $break-point){
-        display: block;
-        width: 100%;
-      }
-    }
-    .band-image-two {
-      transition: all 0.5s;
-      width: 44%;
-      float: right;
-      img {
-        width: 100%;
-      }
-      @media (max-width: $break-point){
-        display: block;
-        width: 100%;
-      }
-    }
     iframe {
       transition: all 0.5s;
       @media (max-width: $break-point) {
         height: 300px;
       }
     }
+    h3 {
+      text-align: center;
+      font-size: 3em;
+    }
+    #home-glyphs {
+      text-align: center;
+      .glyphicon {
+        font-size: 6em;
+        margin: 0.5em;
+        @media (max-width: $break-point) {
+          display: block;
+        }
+      }
+    }
+    p {
+      font-size: 1.5em;
+      text-align: center;
+    }
   }
+
+
   footer {
     #links-container {
       text-align: center;

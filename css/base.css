@@ -367,44 +367,40 @@ th {
 a:hover {
   cursor: pointer; }
 
-#wrapper #content {
+#wrapper .content {
   width: 94%;
   max-width: 800px;
   margin: auto; }
-  #wrapper #content #cover-logo {
+  #wrapper .content #cover-logo {
     margin: 3em 0;
     width: 100%; }
-  #wrapper #content #tag-line {
+  #wrapper .content #tag-line {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
     margin: 0 0 2em 0; }
-  #wrapper #content .band-image {
+  #wrapper .content .band-image {
     width: 100%;
     margin-bottom: 2em; }
-  #wrapper #content .band-info {
-    display: inline-block;
-    width: 52%;
-    font-size: 1.4em; }
-    @media (max-width: 700px) {
-      #wrapper #content .band-info {
-        display: block;
-        width: 100%; } }
-  #wrapper #content .band-image-two {
-    transition: all 0.5s;
-    width: 44%;
-    float: right; }
-    #wrapper #content .band-image-two img {
-      width: 100%; }
-    @media (max-width: 700px) {
-      #wrapper #content .band-image-two {
-        display: block;
-        width: 100%; } }
-  #wrapper #content iframe {
+  #wrapper .content iframe {
     transition: all 0.5s; }
     @media (max-width: 700px) {
-      #wrapper #content iframe {
+      #wrapper .content iframe {
         height: 300px; } }
+  #wrapper .content h3 {
+    text-align: center;
+    font-size: 3em; }
+  #wrapper .content #home-glyphs {
+    text-align: center; }
+    #wrapper .content #home-glyphs .glyphicon {
+      font-size: 6em;
+      margin: 0.5em; }
+      @media (max-width: 700px) {
+        #wrapper .content #home-glyphs .glyphicon {
+          display: block; } }
+  #wrapper .content p {
+    font-size: 1.5em;
+    text-align: center; }
 #wrapper footer #links-container {
   text-align: center;
   margin: 2em 0; }
