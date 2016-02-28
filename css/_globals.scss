@@ -29,9 +29,37 @@ a:hover {
     }
     .band-image {
       width: 100%;
-      margin-bottom: 2em;
+      margin-bottom: 0.25em;
     }
-    iframe {
+    .credit {
+      text-align: left;
+      font-size: 1em;
+      margin-bottom: 1em;
+      opacity: 0.5;
+    }
+    .group-info {
+      text-align: left;
+      font-size: 1.3em;
+      float: left;
+      width: 48%;
+      margin: 0;
+      @media (max-width: $break-point) {
+        float: none;
+        width: 100%;
+      }
+    }
+    .record-img {
+      width: 50%;
+      float: right;
+      margin: 0;
+      transition: all 0.5s;
+      @media (max-width: $break-point) {
+        float: none;
+        width: 100%;
+      }
+    }
+    .video {
+      margin-top: 1em;
       transition: all 0.5s;
       @media (max-width: $break-point) {
         height: 300px;

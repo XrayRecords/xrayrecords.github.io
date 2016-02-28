@@ -381,11 +381,36 @@ a:hover {
     margin: 0 0 2em 0; }
   #wrapper .content .band-image {
     width: 100%;
-    margin-bottom: 2em; }
-  #wrapper .content iframe {
+    margin-bottom: 0.25em; }
+  #wrapper .content .credit {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 1em;
+    opacity: 0.5; }
+  #wrapper .content .group-info {
+    text-align: left;
+    font-size: 1.3em;
+    float: left;
+    width: 48%;
+    margin: 0; }
+    @media (max-width: 700px) {
+      #wrapper .content .group-info {
+        float: none;
+        width: 100%; } }
+  #wrapper .content .record-img {
+    width: 50%;
+    float: right;
+    margin: 0;
     transition: all 0.5s; }
     @media (max-width: 700px) {
-      #wrapper .content iframe {
+      #wrapper .content .record-img {
+        float: none;
+        width: 100%; } }
+  #wrapper .content .video {
+    margin-top: 1em;
+    transition: all 0.5s; }
+    @media (max-width: 700px) {
+      #wrapper .content .video {
         height: 300px; } }
   #wrapper .content h3 {
     text-align: center;
