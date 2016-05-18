@@ -27,6 +27,7 @@ a:hover {
       text-align: center;
       margin: 0 0 2em 0;
     }
+    
     .band-image {
       width: 100%;
       margin-bottom: 0.25em;
@@ -47,6 +48,15 @@ a:hover {
         float: none;
         width: 100%;
       }
+    }
+    #blesst-bio {
+      display: inline-block;
+      text-align: left;
+    }
+    #blesst-record-img {
+      width: 100%;
+      float: none;
+      margin: auto;
     }
     .record-img {
       width: 50%;

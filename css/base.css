@@ -397,6 +397,13 @@ a:hover {
       #wrapper .content .group-info {
         float: none;
         width: 100%; } }
+  #wrapper .content #blesst-bio {
+    display: inline-block;
+    text-align: left; }
+  #wrapper .content #blesst-record-img {
+    width: 100%;
+    float: none;
+    margin: auto; }
   #wrapper .content .record-img {
     width: 50%;
     float: right;
