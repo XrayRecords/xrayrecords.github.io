@@ -393,7 +393,7 @@ a:hover {
     float: left;
     width: 48%;
     margin: 0; }
-    @media (max-width: 700px) {
+    @media (max-width: 767px) {
       #wrapper .content .group-info {
         float: none;
         width: 100%; } }
@@ -409,14 +409,14 @@ a:hover {
     float: right;
     margin: 0;
     transition: all 0.5s; }
-    @media (max-width: 700px) {
+    @media (max-width: 767px) {
       #wrapper .content .record-img {
         float: none;
         width: 100%; } }
   #wrapper .content .video {
     margin-top: 1em;
     transition: all 0.5s; }
-    @media (max-width: 700px) {
+    @media (max-width: 767px) {
       #wrapper .content .video {
         height: 300px; } }
   #wrapper .content h3 {
@@ -427,12 +427,45 @@ a:hover {
     #wrapper .content #home-glyphs .glyphicon {
       font-size: 6em;
       margin: 0.5em; }
-      @media (max-width: 700px) {
+      @media (max-width: 767px) {
         #wrapper .content #home-glyphs .glyphicon {
           display: block; } }
   #wrapper .content p {
     font-size: 1.5em;
     text-align: center; }
+  #wrapper .content .item {
+    display: inline-block;
+    width: 30%;
+    height: auto; }
+    #wrapper .content .item img {
+      width: 100%; }
+    #wrapper .content .item:hover img {
+      opacity: 0.8; }
+    #wrapper .content .item:hover .img-wrap {
+      background-color: black; }
+    #wrapper .content .item figcaption {
+      text-align: center;
+      margin: 5px 0;
+      background-color: transparent; }
+    #wrapper .content .item a {
+      text-decoration: none;
+      color: inherit; }
+  #wrapper .content #individual-item-div img {
+    float: left;
+    width: 45%; }
+  #wrapper .content #individual-item-div p {
+    float: right;
+    width: 45%;
+    text-align: left; }
+  @media (max-width: 767px) {
+    #wrapper .content .item {
+      display: block;
+      margin: 0 auto 1em auto;
+      width: 100%;
+      max-width: 350px; }
+    #wrapper .content #individual-item-div img, #wrapper .content #individual-item-div p {
+      float: none;
+      width: 100%; } }
 #wrapper footer #links-container {
   text-align: center;
   margin: 2em 0; }
@@ -444,7 +477,10 @@ a:hover {
     #wrapper footer #links-container img:hover {
       opacity: 0.9; }
 #wrapper footer p {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.5em; }
+#wrapper footer #copy {
+  font-size: 1em; }
 
 .clear {
   clear: both; }

@@ -27,7 +27,7 @@ a:hover {
       text-align: center;
       margin: 0 0 2em 0;
     }
-    
+
     .band-image {
       width: 100%;
       margin-bottom: 0.25em;
@@ -93,7 +93,59 @@ a:hover {
       font-size: 1.5em;
       text-align: center;
     }
+      // -------------------shop
+      .item {
+        display: inline-block;
+        width: 30%;
+        height: auto;
+        img {
+          width: 100%;
+
+        } &:hover {
+          img {
+            opacity: 0.8;
+            }
+          .img-wrap {
+              background-color: black;
+          }
+        }
+        figcaption {
+          text-align: center;
+          margin: 5px 0;
+          background-color: rgba(0, 0, 0, 0);
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+      #individual-item-div {
+        img {
+          float: left;
+          width: 45%;
+        }
+        p {
+          float: right;
+          width: 45%;
+          text-align: left;
+        }
+      }
+    @media (max-width: $break-point) {
+      .item {
+        display: block;
+        margin: 0 auto 1em auto;
+        width: 100%;
+        max-width: 350px;
+      }
+      #individual-item-div {
+        img, p {
+          float: none;
+          width: 100%;
+        }
+      }
+    }
   }
+
 
 
   footer {
@@ -112,6 +164,10 @@ a:hover {
     }
     p {
       text-align: center;
+      font-size: 1.5em;
+    }
+    #copy {
+      font-size: 1em;
     }
   }
 }
