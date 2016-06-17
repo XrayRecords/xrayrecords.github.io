@@ -115,12 +115,12 @@ var navbar = {};
 navbar.brand = { linkTo: "home.php", text: "XRAY Records" };
 navbar.links = [
   { dropdown: true, text: "Artists", links: [
-    { linkTo: "heavy-breather.php", text: "Heavy Breather" },
-    { linkTo: "blesst-chest.php", text: "Blesst Chest" },
+    { linkTo: "heavy-breather.html", text: "Heavy Breather" },
+    { linkTo: "blesst-chest.html", text: "Blesst Chest" },
     { linkTo: "#", text: "Sun Angle (Coming Soon)" }
       ]
   },
-  { linkTo: "shop.php", text: "Shop" }
+  { linkTo: "shop.html", text: "Shop" }
   ];
 
 // render NavBar

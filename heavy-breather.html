@@ -1,18 +1,17 @@
+
 <!doctype html>
 <html>
   <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="language" content="english" />
-    <meta name="description" content="Highlighting the distinct sounds of the Pacific Northwest" />
+    <meta name="description" content="XRAY Records - Highlighting the distinct sounds of the Pacific Northwest. XRAY Records is a project of XRAY.fm operating out of Portland, Oregon" />
     <meta name="viewport" content="width=device-width" />
     <title>Xray Records | Highlighting the distinct sounds of the Pacific Northwest</title>
 
     <!-- imports: fonts, css, javascript -->
     <link rel="stylesheet" href="css/base.css" />
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <!-- or use local jquery -->
-    <script src="js/jqBootstrapValidation.js"></script>
     <!-- end imports -->
 
     <!-- favicons -->
@@ -53,60 +52,31 @@
         <!-- end navigation-->
       </header>
 
-      <div class="container" id="contact">
-
-        <h3>GET IN TOUCH</h3>
-        <p>To submit a demo, please send files to <a href="mailto:demo@xrayrecords.com" target="_blank">demo@xrayrecords.com</a>. For all other inqueries please fill out the contact form below.</p>
-
-        <form class="form-horizontal" role="form" method="post" action="index.php">
-          <div class="form-group">
-        <label for="name" class="col-sm-2 control-label">Name</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+        <div class="content">
+          <h1 class="band-title">Heavy Breather</h1>
+          <img class="band-image" src="img/heavy-1.jpg" alt="Heavy Breather screenshot from filmed epidoe."/>
+          <br><br><br>
+          <p style="text-align: left;"><a href="http://www.heavybreather.net/" target="_blank">Heavy Breather</a> is a weekly radio show and podcast hosted by Charlie and Marius and recorded live at the <a href="http://xray.fm" target="_blank">XRAY.fm</a> studio in Portland, Oregon.</p>
+          <br><br>
+          <p><a href="https://xrayrecords.bandcamp.com/" target="_blank">Download The Best of Heavy Breather</a></p><br>
+          <iframe class="video" width="100%" height="500" src="https://www.youtube.com/embed/w0Yw8Vx4QWI" frameborder="0" allowfullscreen></iframe>
         </div>
+
+        <footer>
+          <hr>
+          <p>Get in touch: <a href="mailto:records@xray.fm">records@xray.fm</a></p>
+          <div id="links-container">
+            <a href="https://facebook.com/xrayrecs" target="_blank"><img src="img/facebook-icon.png"/></a>
+            <a href="https://twitter.com/xray_recs" target="_blank"><img src="img/twitter-icon.png"/></a>
+            <a href="https://www.instagram.com/xrayrecs/" target="_blank"><img src="img/instagram-icon.png"/></a>
+            <a href="http://xrayrecords.bandcamp.com/" target="_blank"><img src="img/bandcamp-icon.png"/></a>
           </div>
-        <div class="form-group">
-        <label for="email" class="col-sm-2 control-label">Email</label>
-        <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="message" class="col-sm-2 control-label">Message</label>
-        <div class="col-sm-10">
-            <textarea class="form-control" rows="4" name="message"></textarea>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <! Will be used to display an alert to the user>
-        </div>
-    </div>
-</form>
+          <p id="copy">&copy XRAY Records <?php echo Date("Y"); ?></p>
+        </footer>
 
-      </div>
 
-      <footer>
-        <hr>
-        <div id="links-container">
-          <a href="#"><img src="img/facebook-icon.png"/></a>
-          <a href="#"><img src="img/twitter-icon.png"/></a>
-          <a href="#"><img src="img/instagram-icon.png"/></a>
+        <!-- end "wrapper" div tag, carried over from header -->
         </div>
-        <p>&copy XRAY Records 2016</p>
-      </footer>
-    </div>
 
-  </body>
-</html>
+        </body>
+        </html>
