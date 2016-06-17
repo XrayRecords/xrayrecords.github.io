@@ -112,7 +112,7 @@ var NavLink = React.createClass({
 
 // set data
 var navbar = {};
-navbar.brand = { linkTo: "home.php", text: "XRAY Records" };
+navbar.brand = { linkTo: "home.html", text: "XRAY Records" };
 navbar.links = [
   { dropdown: true, text: "Artists", links: [
     { linkTo: "heavy-breather.html", text: "Heavy Breather" },
