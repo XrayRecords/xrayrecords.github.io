@@ -379,12 +379,10 @@ a:hover {
     font-weight: lighter;
     text-align: center;
     margin: 0 0 2em 0; }
-  #wrapper .content #news {
-    border: solid 1px red; }
-    #wrapper .content #news p {
-      text-align: left;
-      display: inline-block;
-      margin: auto; }
+  #wrapper .content #news p {
+    text-align: left;
+    display: inline-block;
+    margin: auto; }
   #wrapper .content .band-image {
     width: 100%;
     margin-bottom: 0.25em; }
