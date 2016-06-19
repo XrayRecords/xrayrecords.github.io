@@ -27,7 +27,16 @@ a:hover {
       text-align: center;
       margin: 0 0 2em 0;
     }
+    #news {
+      border: solid 1px red;
 
+      p {
+      text-align: left;
+      display: inline-block;
+      margin: auto;
+      // border: solid 1px red;
+      }
+    }
     .band-image {
       width: 100%;
       margin-bottom: 0.25em;
@@ -79,16 +88,6 @@ a:hover {
       text-align: center;
       font-size: 3em;
     }
-    #home-glyphs {
-      text-align: center;
-      .glyphicon {
-        font-size: 6em;
-        margin: 0.5em;
-        @media (max-width: $break-point) {
-          display: block;
-        }
-      }
-    }
     p {
       font-size: 1.5em;
       text-align: center;
@@ -96,11 +95,8 @@ a:hover {
       // -------------------shop
       .item {
         display: inline-block;
-        width: 30%;
-        height: auto;
         img {
           width: 100%;
-
         } &:hover {
           img {
             opacity: 0.8;
@@ -125,6 +121,7 @@ a:hover {
           width: 45%;
         }
         p {
+          font-size: 1.25em;
           float: right;
           width: 45%;
           text-align: left;
@@ -135,7 +132,6 @@ a:hover {
         display: block;
         margin: 0 auto 1em auto;
         width: 100%;
-        max-width: 350px;
       }
       #individual-item-div {
         img, p {
@@ -144,11 +140,19 @@ a:hover {
         }
       }
     }
+    @media (max-width: $break-point) {
+        .content {
+        width: 98%;
+        max-width: 400px;
+
+      }
+    }
   }
 
 
 
   footer {
+    padding-top: 20px;
     #links-container {
       text-align: center;
       margin: 2em 0;

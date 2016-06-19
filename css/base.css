@@ -379,6 +379,12 @@ a:hover {
     font-weight: lighter;
     text-align: center;
     margin: 0 0 2em 0; }
+  #wrapper .content #news {
+    border: solid 1px red; }
+    #wrapper .content #news p {
+      text-align: left;
+      display: inline-block;
+      margin: auto; }
   #wrapper .content .band-image {
     width: 100%;
     margin-bottom: 0.25em; }
@@ -422,21 +428,11 @@ a:hover {
   #wrapper .content h3 {
     text-align: center;
     font-size: 3em; }
-  #wrapper .content #home-glyphs {
-    text-align: center; }
-    #wrapper .content #home-glyphs .glyphicon {
-      font-size: 6em;
-      margin: 0.5em; }
-      @media (max-width: 767px) {
-        #wrapper .content #home-glyphs .glyphicon {
-          display: block; } }
   #wrapper .content p {
     font-size: 1.5em;
     text-align: center; }
   #wrapper .content .item {
-    display: inline-block;
-    width: 30%;
-    height: auto; }
+    display: inline-block; }
     #wrapper .content .item img {
       width: 100%; }
     #wrapper .content .item:hover img {
@@ -454,6 +450,7 @@ a:hover {
     float: left;
     width: 45%; }
   #wrapper .content #individual-item-div p {
+    font-size: 1.25em;
     float: right;
     width: 45%;
     text-align: left; }
@@ -461,26 +458,31 @@ a:hover {
     #wrapper .content .item {
       display: block;
       margin: 0 auto 1em auto;
-      width: 100%;
-      max-width: 350px; }
+      width: 100%; }
     #wrapper .content #individual-item-div img, #wrapper .content #individual-item-div p {
       float: none;
       width: 100%; } }
-#wrapper footer #links-container {
-  text-align: center;
-  margin: 2em 0; }
-  #wrapper footer #links-container img {
-    width: 3em;
-    transition: all 0.5s;
-    margin: 0 0.5em;
-    opacity: 0.6; }
-    #wrapper footer #links-container img:hover {
-      opacity: 0.9; }
-#wrapper footer p {
-  text-align: center;
-  font-size: 1.5em; }
-#wrapper footer #copy {
-  font-size: 1em; }
+  @media (max-width: 767px) {
+    #wrapper .content .content {
+      width: 98%;
+      max-width: 400px; } }
+#wrapper footer {
+  padding-top: 20px; }
+  #wrapper footer #links-container {
+    text-align: center;
+    margin: 2em 0; }
+    #wrapper footer #links-container img {
+      width: 3em;
+      transition: all 0.5s;
+      margin: 0 0.5em;
+      opacity: 0.6; }
+      #wrapper footer #links-container img:hover {
+        opacity: 0.9; }
+  #wrapper footer p {
+    text-align: center;
+    font-size: 1.5em; }
+  #wrapper footer #copy {
+    font-size: 1em; }
 
 .clear {
   clear: both; }

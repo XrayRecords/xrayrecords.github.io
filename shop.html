@@ -10,6 +10,7 @@
     <title>Xray Records | Highlighting the distinct sounds of the Pacific Northwest</title>
 
     <!-- imports: fonts, css, javascript -->
+    <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <!-- end imports -->
@@ -54,8 +55,8 @@
 
 <div class="content">
   <h1>Shop</h1>
-
-  <div class="item">
+  <br>
+  <div class="item col-1-4">
     <div class="img-wrap">
       <a href="http://blesstchest.bandcamp.com/releases" target="_blank">
         <img src="img/blesst-chest-album-art-front.jpg" alt="Blesst Chest - Wish We Were There"/>
@@ -64,7 +65,7 @@
     </a>
   </div>
 
-    <div class="item">
+    <div class="item col-1-4">
       <div class="img-wrap">
         <a href="shirt.html">
           <img src="img/shirt2.jpg" alt="XRAY Recs shirt by Dreem Street"/>
@@ -74,7 +75,7 @@
     </div>
 
 
-
+<div class="clear"></div>
 <!-- end content div tag -->
 </div>
 
@@ -87,7 +88,7 @@
     <a href="https://www.instagram.com/xrayrecs/" target="_blank"><img src="img/instagram-icon.png"/></a>
     <a href="http://xrayrecords.bandcamp.com/" target="_blank"><img src="img/bandcamp-icon.png"/></a>
   </div>
-  <p id="copy">&copy XRAY Records <?php echo Date("Y"); ?></p>
+  <p id="copy">&copy XRAY Records <script>document.write(new Date().getFullYear())</script></p>
 </footer>
 
 
