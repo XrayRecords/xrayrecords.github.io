@@ -401,7 +401,8 @@ a:hover {
       #wrapper .content .group-info {
         float: none;
         width: 100%; } }
-  #wrapper .content #blesst-bio {
+  #wrapper .content #band-bio {
+    font-size: 1.25em;
     display: inline-block;
     text-align: left; }
   #wrapper .content #blesst-record-img {

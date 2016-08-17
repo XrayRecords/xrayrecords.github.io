@@ -117,6 +117,7 @@ navbar.links = [
   { dropdown: true, text: "Artists", links: [
     { linkTo: "http://xrayrecords.org/blesst-chest.html", text: "Blesst Chest" },
     { linkTo: "http://xrayrecords.org/heavy-breather.html", text: "Heavy Breather" },
+    { linkTo: "http://xrayrecords.org/wl.html", text: "WL" },
     { linkTo: "#", text: "Sun Angle (Coming Soon)" }
       ]
   },
