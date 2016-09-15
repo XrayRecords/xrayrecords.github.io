@@ -118,7 +118,7 @@ navbar.links = [
     { linkTo: "http://xrayrecords.org/blesst-chest.html", text: "Blesst Chest" },
     { linkTo: "http://xrayrecords.org/heavy-breather.html", text: "Heavy Breather" },
     { linkTo: "http://xrayrecords.org/wl.html", text: "WL" },
-    { linkTo: "#", text: "Sun Angle (Coming Soon)" }
+    { linkTo: "http://xrayrecords.org/sun-angle.html", text: "Sun Angle" }
       ]
   },
   { linkTo: "http://xrayrecords.org/shop.html", text: "Shop" }
