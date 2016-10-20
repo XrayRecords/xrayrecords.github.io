@@ -405,10 +405,14 @@ a:hover {
     font-size: 1.25em;
     display: inline-block;
     text-align: left; }
-  #wrapper .content #blesst-record-img {
+  #wrapper .content .full-record-img {
     width: 100%;
+    transition: all 0.25s;
     float: none;
     margin: auto; }
+    #wrapper .content .full-record-img:hover {
+      opacity: 0.8;
+      transition: 1.25; }
   #wrapper .content .record-img {
     width: 50%;
     float: right;
@@ -455,11 +459,15 @@ a:hover {
     text-align: left; }
   @media (max-width: 767px) {
     #wrapper .content .item {
-      display: block;
+      display: inline-block;
       margin: 0 auto 1em auto;
-      width: 100%; }
+      width: 48%; }
     #wrapper .content #individual-item-div img, #wrapper .content #individual-item-div p {
       float: none;
+      width: 100%; } }
+  @media (max-width: 550px) {
+    #wrapper .content .item {
+      display: block;
       width: 100%; } }
   @media (max-width: 767px) {
     #wrapper .content .content {

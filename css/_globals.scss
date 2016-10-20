@@ -63,10 +63,15 @@ a:hover {
       display: inline-block;
       text-align: left;
     }
-    #blesst-record-img {
+    .full-record-img {
       width: 100%;
+      transition: all 0.25s;
       float: none;
       margin: auto;
+        &:hover {
+          opacity: 0.8;
+          transition: 1.25;
+        }
     }
     .record-img {
       width: 50%;
@@ -130,15 +135,21 @@ a:hover {
       }
     @media (max-width: $break-point) {
       .item {
-        display: block;
+        display: inline-block;
         margin: 0 auto 1em auto;
-        width: 100%;
+        width: 48%;
       }
       #individual-item-div {
         img, p {
           float: none;
           width: 100%;
         }
+      }
+    }
+    @media (max-width: $mobile) {
+      .item {
+        display: block;
+        width: 100%;
       }
     }
     @media (max-width: $break-point) {
