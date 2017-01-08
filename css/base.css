@@ -368,6 +368,7 @@ a:hover {
   cursor: pointer; }
 
 #wrapper .content {
+  padding-top: 1em;
   width: 94%;
   max-width: 800px;
   margin: auto; }
