@@ -112,17 +112,18 @@ var NavLink = React.createClass({
 
 // set data
 var navbar = {};
-navbar.brand = { linkTo: "http://xrayrecords.org/home.html", text: "XRAY Records" };
+navbar.brand = { linkTo: "/xrayrecords.github.io/home.html", text: "XRAY Records" };
 navbar.links = [
   { dropdown: true, text: "Artists", links: [
-    { linkTo: "http://xrayrecords.org/deathlist.html", text: "Deathlist" },
-    { linkTo: "http://xrayrecords.org/blesst-chest.html", text: "Blesst Chest" },
-    { linkTo: "http://xrayrecords.org/heavy-breather.html", text: "Heavy Breather" },
-    { linkTo: "http://xrayrecords.org/wl.html", text: "WL" },
-    { linkTo: "http://xrayrecords.org/sun-angle.html", text: "Sun Angle" }
+    { linkTo: "/xrayrecords.github.io/artists/deathlist.html", text: "Deathlist" },
+    { linkTo: "/xrayrecords.github.io/artists/blesst-chest.html", text: "Blesst Chest" },
+    { linkTo: "/xrayrecords.github.io/artists/heavy-breather.html", text: "Heavy Breather" },
+    { linkTo: "/xrayrecords.github.io/artists/wl.html", text: "WL" },
+    { linkTo: "/xrayrecords.github.io/artists/sun-angle.html", text: "Sun Angle" },
+    { linkTo: "/xrayrecords.github.io/artists/secret-drum-band.html", text: "Secret Drum Band (coming soon)" }
       ]
   },
-  { linkTo: "http://xrayrecords.org/shop.html", text: "Shop" }
+  { linkTo: "/xrayrecords.github.io/shop.html", text: "Shop" }
   ];
 
 // render NavBar
