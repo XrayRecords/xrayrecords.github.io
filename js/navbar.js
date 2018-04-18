@@ -118,6 +118,7 @@ navbar.links = [
     { linkTo: "/xrayrecords.github.io/artists/deathlist.html", text: "Deathlist" },
     { linkTo: "/xrayrecords.github.io/artists/blesst-chest.html", text: "Blesst Chest" },
     { linkTo: "/xrayrecords.github.io/artists/heavy-breather.html", text: "Heavy Breather" },
+    { linkTo: "/xrayrecords.github.io/artists/holy-sons.html", text: "Holy Sons" },
     { linkTo: "/xrayrecords.github.io/artists/wl.html", text: "WL" },
     { linkTo: "/xrayrecords.github.io/artists/sun-angle.html", text: "Sun Angle" },
     { linkTo: "/xrayrecords.github.io/artists/secret-drum-band.html", text: "Secret Drum Band" }
