@@ -114,15 +114,17 @@ var NavLink = React.createClass({
 var navbar = {};
 navbar.brand = { linkTo: "/xrayrecords.github.io/home.html", text: "XRAY Records" };
 navbar.links = [
-  { dropdown: true, text: "Artists", links: [
-    { linkTo: "/xrayrecords.github.io/artists/deathlist.html", text: "Deathlist" },
-    { linkTo: "/xrayrecords.github.io/artists/blesst-chest.html", text: "Blesst Chest" },
-    { linkTo: "/xrayrecords.github.io/artists/heavy-breather.html", text: "Heavy Breather" },
-    { linkTo: "/xrayrecords.github.io/artists/holy-sons.html", text: "Holy Sons" },
-    { linkTo: "/xrayrecords.github.io/artists/wl.html", text: "WL" },
-    { linkTo: "/xrayrecords.github.io/artists/sun-angle.html", text: "Sun Angle" },
-    { linkTo: "/xrayrecords.github.io/artists/secret-drum-band.html", text: "Secret Drum Band" }
-      ]
+  { dropdown: true, text: "Artists", links: 
+    [
+      { linkTo: "/xrayrecords.github.io/artists/deathlist.html", text: "Deathlist" },
+      { linkTo: "/xrayrecords.github.io/artists/blesst-chest.html", text: "Blesst Chest" },
+      { linkTo: "/xrayrecords.github.io/artists/heavy-breather.html", text: "Heavy Breather" },
+      { linkTo: "/xrayrecords.github.io/artists/holy-sons.html", text: "Holy Sons" },
+      { linkTo: "/xrayrecords.github.io/artists/miss-rayon.html", text: "Miss Rayon" },
+      { linkTo: "/xrayrecords.github.io/artists/wl.html", text: "WL" },
+      { linkTo: "/xrayrecords.github.io/artists/sun-angle.html", text: "Sun Angle" },
+      { linkTo: "/xrayrecords.github.io/artists/secret-drum-band.html", text: "Secret Drum Band" }
+    ]
   },
   { linkTo: "/xrayrecords.github.io/shop.html", text: "Shop" }
   ];
